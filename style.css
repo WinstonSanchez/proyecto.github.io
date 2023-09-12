@@ -1,0 +1,70 @@
+/* Estilos CSS con temática ambiental estilizada */
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    background-color: #E6F7E2; /* Verde claro para el fondo */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6CBF50; /* Verde más oscuro para el encabezado */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #6CBF50; /* Borde verde para las secciones */
+    border-radius: 5px;
+}
+
+h2 {
+    color: #6CBF50; /* Verde oscuro para los títulos de sección */
+}
+
+p {
+    color: #333; /* Color de texto principal */
+}
+
+a {
+    text-decoration: none;
+    color: #3498db; /* Color para los enlaces */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse sobre los enlaces */
+}
+
+footer {
+    text-align: center;
+    background-color: #6CBF50; /* Verde oscuro para el pie de página */
+    color: #fff;
+    padding: 10px 0;
+}
+.redes-sociales {
+    list-style-type: none;
+    padding: 0;
+}
+
+.redes-sociales li {
+    display: inline-block;
+    margin-right: 10px; /* Espacio entre los íconos de redes sociales */
+}
+
+.redes-sociales a img {
+    width: 30px; /* Tamaño de los íconos de redes sociales */
+    height: 30px;
+    border: none;
+}
